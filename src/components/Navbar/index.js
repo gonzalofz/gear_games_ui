@@ -224,7 +224,7 @@ export default function PrimarySearchAppBar() {
           </IconButton> */}
           <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
             <Typography className={classes.title} variant="h6" noWrap>
-              Technology Plus
+              Gear Games
             </Typography>
           </Link>
           <div className={classes.search}>
