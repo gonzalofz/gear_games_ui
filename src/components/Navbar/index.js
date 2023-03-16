@@ -201,7 +201,7 @@ export default function PrimarySearchAppBar() {
     }
 
     const newProducts = products.filter((product) =>
-      product.productName.includes(productSearch)
+      product.productname.toUpperCase().includes(productSearch.toUpperCase())
     );
 
     dispatch({

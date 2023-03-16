@@ -61,9 +61,9 @@ export default function CardContentProduct({ product }) {
             </Grid>
           </center>
           <CardContent>
-            <Typography variant="body4" color="text.secondary" align="left">
+            {/* <Typography variant="body4" color="text.secondary" align="left">
               Nike
-            </Typography>
+            </Typography> */}
             <br></br>
             <Typography gutterBottom variant="h6" omponent="div" align="left">
               Descripción

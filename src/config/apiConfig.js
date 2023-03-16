@@ -2,7 +2,7 @@ const SERVICE_API_HOST = process.env.REACT_APP_SERVICE_API_HOST;
 
 const getProductsURL = () => `${SERVICE_API_HOST}/products`;
 
-const getProductURL = (id) => `${SERVICE_API_HOST}/product/${id}`;
+const getProductURL = (id) => `${SERVICE_API_HOST}/products/${id}`;
 
 const getBrandsURL = () => `${SERVICE_API_HOST}/brands`;
 

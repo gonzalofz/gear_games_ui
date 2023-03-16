@@ -18,12 +18,13 @@ import accounting from "accounting";
 import { Link } from "react-router-dom";
 
 export default function CardProduct({ product }) {
+  console.log("product: ", product);
   const {
-    productName,
+    productname: productName,
     image,
     price,
     // description,
-    brandName,
+    brandname: brandName,
     // categoryName,
   } = product;
   const dispatch = useStateValue()[1];
@@ -46,7 +47,7 @@ export default function CardProduct({ product }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <Link
-        to={`/product/${product._id}`}
+        to={`/product/${product.id}`}
         style={{ textDecoration: "none", color: "inherit" }}
       >
         <CardMedia
